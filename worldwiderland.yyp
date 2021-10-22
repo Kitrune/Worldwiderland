@@ -5,6 +5,7 @@
     {"id":{"name":"spr_ventana1","path":"sprites/spr_ventana1/spr_ventana1.yy",},"order":1,},
     {"id":{"name":"spr_ventana2","path":"sprites/spr_ventana2/spr_ventana2.yy",},"order":2,},
     {"id":{"name":"scr_esAccesible","path":"scripts/scr_esAccesible/scr_esAccesible.yy",},"order":0,},
+    {"id":{"name":"seq_deadBug","path":"sequences/seq_deadBug/seq_deadBug.yy",},"order":0,},
     {"id":{"name":"obj_ctrFindBug","path":"objects/obj_ctrFindBug/obj_ctrFindBug.yy",},"order":0,},
     {"id":{"name":"rm_transicion","path":"rooms/rm_transicion/rm_transicion.yy",},"order":1,},
     {"id":{"name":"spr_findBugBG","path":"sprites/spr_findBugBG/spr_findBugBG.yy",},"order":0,},
@@ -54,6 +55,7 @@
     {"folderPath":"folders/Objects/plantillaJuego.yy","order":2,"resourceVersion":"1.0","name":"plantillaJuego","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/findBug.yy","order":3,"resourceVersion":"1.0","name":"findBug","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/findBug.yy","order":1,"resourceVersion":"1.0","name":"findBug","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sequences/findBug.yy","order":1,"resourceVersion":"1.0","name":"findBug","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
