@@ -21,7 +21,7 @@ part_system_depth(global.partSystem, -100)
 	part_type_size(particula1, 0.2, 0.4, 0.025, 0);
 	
 	//sets the speed
-	part_type_speed(particula1, 3, 5, 0, 0);
+	part_type_speed(particula1, 5, 7, 0, 0);
 	
 	//sets the direction of the particles
 	part_type_direction(particula1, 0, 280, 0 , 0);
