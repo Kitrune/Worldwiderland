@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 if (is_dragged == true){
-	x = mouse_x;
-	y = mouse_y;
+	x = mouse_x - xOff;
+	y = mouse_y - yOff;
 	//phy_position_x = mouse_x;
 	//phy_position_y = mouse_y;	
 	

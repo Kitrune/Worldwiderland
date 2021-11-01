@@ -8,6 +8,7 @@
     {"id":{"name":"seq_botellaAgitada","path":"sequences/seq_botellaAgitada/seq_botellaAgitada.yy",},"order":0,},
     {"id":{"name":"bg_soda","path":"sprites/bg_soda/bg_soda.yy",},"order":1,},
     {"id":{"name":"sp_soda","path":"sprites/sp_soda/sp_soda.yy",},"order":0,},
+    {"id":{"name":"sp_corcho","path":"sprites/sp_corcho/sp_corcho.yy",},"order":2,},
     {"id":{"name":"obj_ctrPlantilla","path":"objects/obj_ctrPlantilla/obj_ctrPlantilla.yy",},"order":0,},
     {"id":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},"order":0,},
   ],
@@ -59,7 +60,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.5.589",
+    "IDEVersion": "2.3.6.595",
   },
   "resourceVersion": "1.4",
   "name": "worldwiderland",
