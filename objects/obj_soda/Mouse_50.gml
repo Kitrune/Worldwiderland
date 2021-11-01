@@ -3,8 +3,8 @@
 if (is_dragged == true){
 	x = mouse_x;
 	y = mouse_y;
-	phy_position_x = mouse_x;
-	phy_position_y = mouse_y;	
+	//phy_position_x = mouse_x;
+	//phy_position_y = mouse_y;	
 	
 	diffx = posx > x ? posx - x : x - posx;
 	diffy = posy > y ? posy - y : y - posy;
