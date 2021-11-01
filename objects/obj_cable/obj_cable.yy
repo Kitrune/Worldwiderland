@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "ww_circuito",
+    "path": "folders/Objects/ww_circuito.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_cable",
