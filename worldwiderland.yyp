@@ -23,6 +23,7 @@
     {"id":{"name":"obj_socket","path":"objects/obj_socket/obj_socket.yy",},"order":1,},
     {"id":{"name":"obj_soda","path":"objects/obj_soda/obj_soda.yy",},"order":0,},
     {"id":{"name":"rm_agitasoda","path":"rooms/rm_agitasoda/rm_agitasoda.yy",},"order":5,},
+    {"id":{"name":"rm_lluvia","path":"rooms/rm_lluvia/rm_lluvia.yy",},"order":7,},
     {"id":{"name":"seq_botellaAgitada","path":"sequences/seq_botellaAgitada/seq_botellaAgitada.yy",},"order":0,},
     {"id":{"name":"rm_plantilla","path":"rooms/rm_plantilla/rm_plantilla.yy",},"order":6,},
     {"id":{"name":"bg_soda","path":"sprites/bg_soda/bg_soda.yy",},"order":1,},
@@ -38,6 +39,7 @@
     {"id":{"name":"spr_findBugBG","path":"sprites/spr_findBugBG/spr_findBugBG.yy",},"order":0,},
     {"id":{"name":"ob_bug","path":"objects/ob_bug/ob_bug.yy",},"order":2,},
     {"id":{"name":"spr_bug","path":"sprites/spr_bug/spr_bug.yy",},"order":4,},
+    {"id":{"name":"sp_paraguas","path":"sprites/sp_paraguas/sp_paraguas.yy",},"order":0,},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"order":0,},
     {"id":{"name":"spr_backgroundBus","path":"sprites/spr_backgroundBus/spr_backgroundBus.yy",},"order":0,},
     {"id":{"name":"obj_ventana","path":"objects/obj_ventana/obj_ventana.yy",},"order":1,},
@@ -65,6 +67,7 @@
     {"roomId":{"name":"rm_juegoCamion","path":"rooms/rm_juegoCamion/rm_juegoCamion.yy",},},
     {"roomId":{"name":"rm_findBug","path":"rooms/rm_findBug/rm_findBug.yy",},},
     {"roomId":{"name":"rm_plantilla","path":"rooms/rm_plantilla/rm_plantilla.yy",},},
+    {"roomId":{"name":"rm_lluvia","path":"rooms/rm_lluvia/rm_lluvia.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -95,6 +98,8 @@
     {"folderPath":"folders/Sequences/findBug.yy","order":1,"resourceVersion":"1.0","name":"findBug","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/autobus.yy","order":5,"resourceVersion":"1.0","name":"autobus","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/menu.yy","order":6,"resourceVersion":"1.0","name":"menu","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/evitaLluvia.yy","order":7,"resourceVersion":"1.0","name":"evitaLluvia","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/lluvia.yy","order":7,"resourceVersion":"1.0","name":"lluvia","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
