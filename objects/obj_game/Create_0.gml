@@ -3,4 +3,4 @@ global.control = id;
 //random seed
 randomise();
 //Linea temporal para saltarse el menu principal
-room_goto(rm_agitasoda);
+room_goto(rm_main);
