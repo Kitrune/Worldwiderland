@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "autobus",
+    "path": "folders/Sprites/autobus.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_backgroundBus",

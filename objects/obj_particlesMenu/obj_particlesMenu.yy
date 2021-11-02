@@ -24,7 +24,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "graphics_menu",
-    "path": "folders/Objects/plantillaJuego/objs_menu/graphics_menu.yy",
+    "path": "folders/Objects/objs_menu/graphics_menu.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_particlesMenu",

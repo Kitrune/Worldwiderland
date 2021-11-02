@@ -56,8 +56,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Juego_soda",
-    "path": "folders/Rooms/Juego_soda.yy",
+    "name": "Rooms",
+    "path": "folders/Rooms.yy",
   },
   "resourceVersion": "1.0",
   "name": "rm_agitasoda",

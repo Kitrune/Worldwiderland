@@ -24,7 +24,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "objs_menu",
-    "path": "folders/Objects/plantillaJuego/objs_menu.yy",
+    "path": "folders/Objects/objs_menu.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_menuSong",
