@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_cable",
-    "path": "sprites/spr_cable/spr_cable.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
