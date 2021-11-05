@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_cuadro",
-    "path": "sprites/spr_cuadro/spr_cuadro.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -20,19 +17,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
-  "properties": [
-    {"varType":1,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"numero","tags":[],"resourceType":"GMObjectProperty",},
-  ],
+  "eventList": [],
+  "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "ww_ordena_numero",
     "path": "folders/Objects/ww_ordena_numero.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_cuadro_numero",
+  "name": "obj_control_swap",
   "tags": [],
   "resourceType": "GMObject",
 }
