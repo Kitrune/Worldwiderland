@@ -4,8 +4,8 @@
 //show_debug_message("Bloque a mi derecha " + string(bloque_derecha.numero));
 
 if(angulo == 0) {
-	bloque_izquierda = collision_point(x, y, obj_cuadro_numero, false, false);
-	bloque_derecha = collision_point(x+sprite_width, y+sprite_width/2, obj_cuadro_numero, false, false);
+	bloque_izquierda = collision_point(x, y+sprite_height/2, obj_cuadro_numero, false, false);
+	bloque_derecha = collision_point(x+sprite_width, y+sprite_height/2, obj_cuadro_numero, false, false);
 	centro_rotacion = bloque_izquierda.x + bloque_izquierda.sprite_width/2;
 	angulo = 1;
 }
