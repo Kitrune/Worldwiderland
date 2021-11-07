@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_cuadro",
-    "path": "sprites/spr_cuadro/spr_cuadro.yy",
+    "name": "spr_slot",
+    "path": "sprites/spr_slot/spr_slot.yy",
   },
   "solid": false,
   "visible": true,

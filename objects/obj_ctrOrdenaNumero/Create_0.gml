@@ -5,10 +5,14 @@ timer = 30;
 //Se empieza a correr el timer
 alarm_set(0,60);
 // Crear los bloques y botones para swapear los numeros.
-cantidad_numeros = 8;
 permutacion = ds_list_create();
+var aleatorio;
 for(var i = 0; i < cantidad_numeros; i++) {
-	ds_list_add(permutacion, i+1);
+	do {
+		aleatorio = irandom(25)+1;
+	}
+	until(ds_list_find_index(permutacion, aleatorio) == -1);
+	ds_list_add(permutacion, aleatorio);
 }
 ds_list_shuffle(permutacion);
 factor_escala = room_width/(cantidad_numeros+2);

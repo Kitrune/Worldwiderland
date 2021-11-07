@@ -4,7 +4,7 @@ var actuales = ds_list_create()
 for(var i = 1; i <= cantidad_numeros; i++) {
 	var numero;
 	try {
-	    var c = collision_point(i*factor_escala, room_height/2, obj_cuadro_numero, false, false);
+	    var c = collision_point(i*factor_escala+5, room_height/2+5, obj_cuadro_numero, false, false);
 		numero = c.numero;
 	}
 	catch( _exception)
