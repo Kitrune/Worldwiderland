@@ -8,4 +8,5 @@ if(angulo == 0) {
 	bloque_derecha = collision_point(x+sprite_width, y+sprite_height/2, obj_cuadro_numero, false, false);
 	centro_rotacion = bloque_izquierda.x + bloque_izquierda.sprite_width/2;
 	angulo = 1;
+	image_alpha=0;
 }

@@ -19,5 +19,6 @@ if(angulo > 0) {
 		var aux = bloque_derecha;
 		bloque_derecha = bloque_izquierda;
 		bloque_izquierda = aux;
+		image_alpha=1;
 	}
 }
