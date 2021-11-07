@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"obj_particlesMenu","path":"objects/obj_particlesMenu/obj_particlesMenu.yy",},"order":0,},
     {"id":{"name":"sp_startBT","path":"sprites/sp_startBT/sp_startBT.yy",},"order":0,},
+    {"id":{"name":"BG_ordenar_numeros_sin_numeros","path":"sprites/BG_ordenar_numeros_sin_numeros/BG_ordenar_numeros_sin_numeros.yy",},"order":3,},
     {"id":{"name":"obj_ctrOrdenaNumero","path":"objects/obj_ctrOrdenaNumero/obj_ctrOrdenaNumero.yy",},"order":0,},
     {"id":{"name":"rm_wwOrdenaNumero","path":"rooms/rm_wwOrdenaNumero/rm_wwOrdenaNumero.yy",},"order":7,},
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"order":0,},
@@ -118,7 +119,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.6.595",
+    "IDEVersion": "2.3.5.589",
   },
   "resourceVersion": "1.4",
   "name": "worldwiderland",
