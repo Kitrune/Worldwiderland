@@ -45,6 +45,7 @@
     {"id":{"name":"obj_ctrFindBug","path":"objects/obj_ctrFindBug/obj_ctrFindBug.yy",},"order":0,},
     {"id":{"name":"spr_bus","path":"sprites/spr_bus/spr_bus.yy",},"order":1,},
     {"id":{"name":"spr_findBugBG","path":"sprites/spr_findBugBG/spr_findBugBG.yy",},"order":0,},
+    {"id":{"name":"spr_numeros","path":"sprites/spr_numeros/spr_numeros.yy",},"order":4,},
     {"id":{"name":"ob_bug","path":"objects/ob_bug/ob_bug.yy",},"order":2,},
     {"id":{"name":"spr_bug","path":"sprites/spr_bug/spr_bug.yy",},"order":4,},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"order":0,},
@@ -118,7 +119,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.6.595",
+    "IDEVersion": "2.3.5.589",
   },
   "resourceVersion": "1.4",
   "name": "worldwiderland",
