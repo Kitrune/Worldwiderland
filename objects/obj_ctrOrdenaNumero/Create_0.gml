@@ -19,7 +19,8 @@ factor_escala = room_width/(cantidad_numeros+2);
 var lista_cuadros = ds_list_create();
 for(var i = 0; i < cantidad_numeros; i++) {
 	width = sprite_get_width(spr_cuadro)*factor_escala;
-	var inst = instance_create_layer(factor_escala + i*width/10, room_height/2, "Instances", obj_cuadro_numero);
+	var c_height = sprite_get_height(spr_cuadro)*factor_escala/10;
+	var inst = instance_create_layer(factor_escala + i*width/10, room_height/2 -  c_height/2, "Instances", obj_cuadro_numero);
 	ds_list_add(lista_cuadros, inst);
 	inst.numero = permutacion[|i];
 	inst.image_xscale *= factor_escala/10;
@@ -28,7 +29,7 @@ for(var i = 0; i < cantidad_numeros; i++) {
 	if(i == 0) {
 		continue;
 	}
-	var btn = instance_create_layer(factor_escala*3/4 + i*width/10, room_height/2, "Instances", obj_control_swap);
+	var btn = instance_create_layer(factor_escala*3/4 + i*width/10, room_height/2 - c_height/2, "Instances", obj_control_swap);
 	btn.image_xscale *= factor_escala/2/10;
 	btn.image_yscale *= factor_escala/10;
 	btn.bloque_izquierda = lista_cuadros[|i-1];
