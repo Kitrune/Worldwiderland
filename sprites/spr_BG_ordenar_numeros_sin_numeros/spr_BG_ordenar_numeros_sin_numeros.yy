@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"0bb93a14-6fd7-4f96-9931-65bf3ea6175b","path":"sprites/BG_ordenar_numeros_sin_numeros/BG_ordenar_numeros_sin_numeros.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0bb93a14-6fd7-4f96-9931-65bf3ea6175b","path":"sprites/BG_ordenar_numeros_sin_numeros/BG_ordenar_numeros_sin_numeros.yy",},"LayerId":{"name":"a9eefe56-93ad-4df2-874e-6c50d88307e4","path":"sprites/BG_ordenar_numeros_sin_numeros/BG_ordenar_numeros_sin_numeros.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"BG_ordenar_numeros_sin_numeros","path":"sprites/BG_ordenar_numeros_sin_numeros/BG_ordenar_numeros_sin_numeros.yy",},"resourceVersion":"1.0","name":"0bb93a14-6fd7-4f96-9931-65bf3ea6175b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0bb93a14-6fd7-4f96-9931-65bf3ea6175b","path":"sprites/spr_BG_ordenar_numeros_sin_numeros/spr_BG_ordenar_numeros_sin_numeros.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0bb93a14-6fd7-4f96-9931-65bf3ea6175b","path":"sprites/spr_BG_ordenar_numeros_sin_numeros/spr_BG_ordenar_numeros_sin_numeros.yy",},"LayerId":{"name":"a9eefe56-93ad-4df2-874e-6c50d88307e4","path":"sprites/spr_BG_ordenar_numeros_sin_numeros/spr_BG_ordenar_numeros_sin_numeros.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_BG_ordenar_numeros_sin_numeros","path":"sprites/spr_BG_ordenar_numeros_sin_numeros/spr_BG_ordenar_numeros_sin_numeros.yy",},"resourceVersion":"1.0","name":"0bb93a14-6fd7-4f96-9931-65bf3ea6175b","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"BG_ordenar_numeros_sin_numeros","path":"sprites/BG_ordenar_numeros_sin_numeros/BG_ordenar_numeros_sin_numeros.yy",},
+    "spriteId": {"name":"spr_BG_ordenar_numeros_sin_numeros","path":"sprites/spr_BG_ordenar_numeros_sin_numeros/spr_BG_ordenar_numeros_sin_numeros.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"56d78731-5b8d-4ba5-ae20-c1b0f40eb168","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0bb93a14-6fd7-4f96-9931-65bf3ea6175b","path":"sprites/BG_ordenar_numeros_sin_numeros/BG_ordenar_numeros_sin_numeros.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"56d78731-5b8d-4ba5-ae20-c1b0f40eb168","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0bb93a14-6fd7-4f96-9931-65bf3ea6175b","path":"sprites/spr_BG_ordenar_numeros_sin_numeros/spr_BG_ordenar_numeros_sin_numeros.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"BG_ordenar_numeros_sin_numeros","path":"sprites/BG_ordenar_numeros_sin_numeros/BG_ordenar_numeros_sin_numeros.yy",},
+    "parent": {"name":"spr_BG_ordenar_numeros_sin_numeros","path":"sprites/spr_BG_ordenar_numeros_sin_numeros/spr_BG_ordenar_numeros_sin_numeros.yy",},
     "resourceVersion": "1.3",
-    "name": "BG_ordenar_numeros_sin_numeros",
+    "name": "spr_BG_ordenar_numeros_sin_numeros",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/wwOrdenaNumero.yy",
   },
   "resourceVersion": "1.0",
-  "name": "BG_ordenar_numeros_sin_numeros",
+  "name": "spr_BG_ordenar_numeros_sin_numeros",
   "tags": [],
   "resourceType": "GMSprite",
 }

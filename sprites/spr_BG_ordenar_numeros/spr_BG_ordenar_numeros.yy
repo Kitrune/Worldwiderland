@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"3caaf30e-40df-41b2-b3e6-e602087edb52","path":"sprites/BG_ordenar_numeros/BG_ordenar_numeros.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3caaf30e-40df-41b2-b3e6-e602087edb52","path":"sprites/BG_ordenar_numeros/BG_ordenar_numeros.yy",},"LayerId":{"name":"8d1af2c9-9b2d-414a-8127-35afa03591a3","path":"sprites/BG_ordenar_numeros/BG_ordenar_numeros.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"BG_ordenar_numeros","path":"sprites/BG_ordenar_numeros/BG_ordenar_numeros.yy",},"resourceVersion":"1.0","name":"3caaf30e-40df-41b2-b3e6-e602087edb52","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3caaf30e-40df-41b2-b3e6-e602087edb52","path":"sprites/spr_BG_ordenar_numeros/spr_BG_ordenar_numeros.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3caaf30e-40df-41b2-b3e6-e602087edb52","path":"sprites/spr_BG_ordenar_numeros/spr_BG_ordenar_numeros.yy",},"LayerId":{"name":"8d1af2c9-9b2d-414a-8127-35afa03591a3","path":"sprites/spr_BG_ordenar_numeros/spr_BG_ordenar_numeros.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_BG_ordenar_numeros","path":"sprites/spr_BG_ordenar_numeros/spr_BG_ordenar_numeros.yy",},"resourceVersion":"1.0","name":"3caaf30e-40df-41b2-b3e6-e602087edb52","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"BG_ordenar_numeros","path":"sprites/BG_ordenar_numeros/BG_ordenar_numeros.yy",},
+    "spriteId": {"name":"spr_BG_ordenar_numeros","path":"sprites/spr_BG_ordenar_numeros/spr_BG_ordenar_numeros.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"a1c35eff-d755-48a8-ab56-55c3eac612a9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3caaf30e-40df-41b2-b3e6-e602087edb52","path":"sprites/BG_ordenar_numeros/BG_ordenar_numeros.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a1c35eff-d755-48a8-ab56-55c3eac612a9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3caaf30e-40df-41b2-b3e6-e602087edb52","path":"sprites/spr_BG_ordenar_numeros/spr_BG_ordenar_numeros.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"BG_ordenar_numeros","path":"sprites/BG_ordenar_numeros/BG_ordenar_numeros.yy",},
+    "parent": {"name":"spr_BG_ordenar_numeros","path":"sprites/spr_BG_ordenar_numeros/spr_BG_ordenar_numeros.yy",},
     "resourceVersion": "1.3",
-    "name": "BG_ordenar_numeros",
+    "name": "spr_BG_ordenar_numeros",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/wwOrdenaNumero.yy",
   },
   "resourceVersion": "1.0",
-  "name": "BG_ordenar_numeros",
+  "name": "spr_BG_ordenar_numeros",
   "tags": [],
   "resourceType": "GMSprite",
 }
