@@ -3,5 +3,5 @@ velocidadH=5;
 
 //Movimiento vertical
 gravedad=0.2;
-alturaSalto=7;
+alturaSalto=3;
 velocidadV=0;

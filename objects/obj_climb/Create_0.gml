@@ -7,3 +7,26 @@ timer = 30;
 alarm_set(0,60);
 
 preguntas=["Salta sobre los pares","Salta sobre las condiciones reales","Salta sobre los numeros mas pequeños","Salta sobre los inpares","Salta sobre los numeros mas grandes"];
+
+//Generacion de nubes
+
+var altitudes=[500,400,300,200,100];
+var longitudes=[400,600,800];
+var j=0;
+var k=0;
+list = ds_list_create();
+ds_list_add(list,false,true,false);
+ds_list_shuffle(list);
+for(var i=0; i<15; i++){
+	if(i%3==0){
+		ds_list_shuffle(list);
+		k=0;
+		j++;
+	}
+	if(j==5){
+		j=0;
+	}
+	var objeto=instance_create_layer(longitudes[k], altitudes[j], "Instances", obj_nubeTemp);
+	objeto.esReal=list[|k];
+	k++;
+}
