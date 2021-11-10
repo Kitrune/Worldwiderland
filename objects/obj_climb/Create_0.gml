@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //Se declara el tiempo del timer
-timer = 30;
+timer = 25;
 //Se empieza a correr el timer
 alarm_set(0,60);
 
@@ -10,8 +10,10 @@ preguntas=["Salta sobre los pares","Salta sobre las condiciones reales","Salta s
 
 //Generacion de nubes
 
-var altitudes=[5000,4000,3000,2000,1000];
-var longitudes=[20,440,860];
+var separacion = room_height/5;
+
+var altitudes=[separacion*5-80,separacion*4-80,separacion*3-80,separacion*2-80,separacion-80];
+var longitudes=[195,615,1075];
 var j=0;
 var k=0;
 list = ds_list_create();
