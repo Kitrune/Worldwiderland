@@ -30,3 +30,11 @@ for(var i=0; i<15; i++){
 	objeto.esReal=list[|k];
 	k++;
 }
+
+//Empieza a mover la camara
+var timeLeft=inst_487C7496.timer*60;
+var vel=room_height/timeLeft;
+y=room_height -720/2;
+x=room_width/2;
+direction = 90;
+speed = vel;
