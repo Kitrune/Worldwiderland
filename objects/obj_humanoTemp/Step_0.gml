@@ -22,18 +22,18 @@ velocidadV += gravedad;
 
 
 if place_meeting(x, y + velocidadV, obj_nubeTemp){
-	try{
-	var nube = instance_place(x, y, obj_nubeTemp);
-	while !place_meeting(x, y + sign(velocidadV), obj_nubeTemp){
+	try {
+		var nube = instance_place(x, y, obj_nubeTemp);
+	/*while !place_meeting(x, y + sign(velocidadV), obj_nubeTemp){
 		y+=sign(velocidadV);
-	}
+	}*/
 	
 	//Brincos en nubes reales
-	if(nube.esReal){
-		velocidadV=0;
-	} else {
-		destroy(nube);
-	}
+		if(nube.esReal){
+			velocidadV=0;
+		} else {
+			destroy(nube);
+		}
 	} catch(e){}
 }
 
@@ -45,4 +45,3 @@ if tocaPiso and salto{
 
 x += movimientoH;
 y += velocidadV;
-
