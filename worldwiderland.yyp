@@ -45,6 +45,7 @@
     {"id":{"name":"spr_bug","path":"sprites/spr_bug/spr_bug.yy",},"order":4,},
     {"id":{"name":"obj_nubeTemp","path":"objects/obj_nubeTemp/obj_nubeTemp.yy",},"order":1,},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"order":0,},
+    {"id":{"name":"spr_box","path":"sprites/spr_box/spr_box.yy",},"order":3,},
     {"id":{"name":"Sprite17","path":"sprites/Sprite17/Sprite17.yy",},"order":1,},
     {"id":{"name":"spr_backgroundBus","path":"sprites/spr_backgroundBus/spr_backgroundBus.yy",},"order":0,},
     {"id":{"name":"obj_ventana","path":"objects/obj_ventana/obj_ventana.yy",},"order":1,},
