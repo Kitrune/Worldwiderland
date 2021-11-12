@@ -32,6 +32,7 @@
     {"id":{"name":"sp_corcho","path":"sprites/sp_corcho/sp_corcho.yy",},"order":2,},
     {"id":{"name":"rm_findBug","path":"rooms/rm_findBug/rm_findBug.yy",},"order":4,},
     {"id":{"name":"Sprite16","path":"sprites/Sprite16/Sprite16.yy",},"order":0,},
+    {"id":{"name":"font_acentos","path":"fonts/font_acentos/font_acentos.yy",},"order":1,},
     {"id":{"name":"spr_ventana1","path":"sprites/spr_ventana1/spr_ventana1.yy",},"order":1,},
     {"id":{"name":"spr_ventana2","path":"sprites/spr_ventana2/spr_ventana2.yy",},"order":2,},
     {"id":{"name":"scr_esAccesible","path":"scripts/scr_esAccesible/scr_esAccesible.yy",},"order":0,},

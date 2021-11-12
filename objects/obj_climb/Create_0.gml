@@ -8,7 +8,7 @@ alarm_set(0,60);
 
 //Iniciar preguntas
 var preguntas=ds_list_create();
-ds_list_add(preguntas,"Salta sobre los pares","Salta sobre las condiciones reales","Salta sobre los numeros mas pequeños","Salta sobre los inpares","Salta sobre los numeros mas grandes");
+ds_list_add(preguntas,"Salta sobre los pares","Salta sobre las condiciones reales","Salta sobre los más pequeños","Salta sobre los impares","Salta sobre los más grandes");
 var indice = random_range(0,4);
 text_pregunta=preguntas[|indice];
 

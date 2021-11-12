@@ -1,7 +1,7 @@
 //Controles de movimiento
 derecha=keyboard_check(vk_right) || keyboard_check(ord("D"));
 izquierda=keyboard_check(vk_left) || keyboard_check(ord("A"));
-salto=keyboard_check_pressed(vk_up) || keyboard_check(vk_space);
+salto=keyboard_check_pressed(vk_up) || keyboard_check_pressed(vk_space);
 
 //Movimiento horizontal
 
