@@ -89,9 +89,13 @@ ds_list_add(respuestas, subRespuestas1, subRespuestas2, subRespuestas3, subRespu
 
 //Generacion de nubes
 
-var separacion = room_height/5;
+var separacion = 500;
 
-var altitudes=[separacion*5-680,separacion*4-680,separacion*3-680,separacion*2-680,separacion-680];
+
+var altitudes=ds_list_create();//[separacion*5-680,separacion*4-680,separacion*3-680,separacion*2-680,separacion-680];
+for(var i=0; i<5; i++){
+	ds_list_add(altitudes, room_height - (room_height/6)*i - separacion);
+}
 var longitudes=[195,615,1075];
 
 var nubes = ds_list_create();
@@ -116,7 +120,7 @@ for(var i=0; i<5; i++){
 	for(var j=0; j<3; j++){
 		with(nubes[|j]){
 			x=longitudes[j];
-			y=altitudes[i];
+			y=altitudes[|i];
 		}
 	}
 	ds_list_clear(nubes);
@@ -124,7 +128,7 @@ for(var i=0; i<5; i++){
 
 
 //Empieza a mover la camara
-var timeLeft=inst_487C7496.timer*60;
+var timeLeft=timer*60;
 var vel=room_height/timeLeft;
 y=room_height -720/2;
 x=room_width/2;

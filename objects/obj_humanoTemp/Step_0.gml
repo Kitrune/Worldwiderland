@@ -1,37 +1,22 @@
 //Controles de movimiento
-derecha=keyboard_check(vk_right);
-izquierda=keyboard_check(vk_left);
-salto=keyboard_check_pressed(vk_up);
+derecha=keyboard_check(vk_right) || keyboard_check(ord("D"));
+izquierda=keyboard_check(vk_left) || keyboard_check(ord("A"));
+salto=keyboard_check_pressed(vk_up) || keyboard_check(vk_space);
 
 //Movimiento horizontal
 
 var movimientoH=(derecha - izquierda) * velocidadH;
-var tocaPiso=place_meeting(x, y + 1, obj_nubeTemp);
 
 //Movimiento vertical
-
-velocidadV += gravedad;
-
-
-if place_meeting(x, y + velocidadV, obj_nubeTemp){
-	try {
-		var nube = instance_place(x, y, obj_nubeTemp);
-	
-	//Brincos en nubes reales
-		if(!nube.transparente&&nube.esReal){
-			velocidadV=0;
-		} else if(nube.transparente&&nube.esReal&&tocaPiso) {
-			nube.transparente=false;
-		}
-	} catch(e){}
+if(!enSuelo){
+	velocidadV += gravedad;
 }
 
-//Brinco
 
-if tocaPiso and salto{
-	if(velocidadV==0){
-		velocidadV=alturaSalto*-1;
-	}
+//Brinco
+if salto and enSuelo{
+	velocidadV=alturaSalto*-1;
+	enSuelo = false;
 }
 
 x += movimientoH;

@@ -36,7 +36,6 @@
     {"id":{"name":"spr_ventana2","path":"sprites/spr_ventana2/spr_ventana2.yy",},"order":2,},
     {"id":{"name":"scr_esAccesible","path":"scripts/scr_esAccesible/scr_esAccesible.yy",},"order":0,},
     {"id":{"name":"seq_deadBug","path":"sequences/seq_deadBug/seq_deadBug.yy",},"order":0,},
-    {"id":{"name":"Sprite18","path":"sprites/Sprite18/Sprite18.yy",},"order":2,},
     {"id":{"name":"obj_ctrFindBug","path":"objects/obj_ctrFindBug/obj_ctrFindBug.yy",},"order":0,},
     {"id":{"name":"obj_climb","path":"objects/obj_climb/obj_climb.yy",},"order":0,},
     {"id":{"name":"spr_bus","path":"sprites/spr_bus/spr_bus.yy",},"order":1,},
