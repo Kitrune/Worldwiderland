@@ -7,6 +7,7 @@ if(contadoragitado>=10){
 		animacion = layer_sequence_create(layer_get_id("Assets_1"), x, y, seq_botellaAgitada);
 	}
 	ganado = true;
+	global.control.ganado = true;
 	layer_sequence_x(animacion, x);
 	layer_sequence_y(animacion, y);
 	

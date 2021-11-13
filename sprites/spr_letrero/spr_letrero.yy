@@ -71,8 +71,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "meta",
+    "path": "folders/Sprites/meta.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_letrero",

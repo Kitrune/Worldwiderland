@@ -1,10 +1,6 @@
 /// @description Codigo que se ejecuta al inicio del minijuego
 // You can write your code in this editor
 randomize();
-//Se declara el tiempo del timer
-timer = 30;
-//Se empieza a correr el timer
-alarm_set(0,60);
 var margen = 50;
 var separacionX = room_width/8;
 var separacionY = room_height/8;
@@ -13,6 +9,9 @@ var colores = [c_red, c_blue, c_purple, c_fuchsia, c_orange, c_yellow, c_green, 
 // generar las posiciones donde se pueden generar los cables.
 // Primeras 6 posiciones, las de arriba.
 for(var i = 1; i <= 6; i++) {
+	if(i==1){
+		continue;
+	}
 	ds_list_add(coordenadas, [separacionX*i, margen, -90]);
 }
 // Las de abajo
@@ -21,6 +20,9 @@ for(var i = 1; i <= 6; i++) {
 }
 // Los de la izquierda.
 for(var i = 1; i <= 3; i++) {
+	if(i==1){
+		continue;
+	}
 	ds_list_add(coordenadas, [margen, separacionY*i, 0]); 
 }
 // Los de la derecha.

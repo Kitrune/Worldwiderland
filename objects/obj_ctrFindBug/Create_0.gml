@@ -1,11 +1,6 @@
 /// @description Codigo que se ejecuta al inicio del minijuego
 // You can write your code in this editor
 
-//Se declara el tiempo del timer
-timer = 30;
-//Se empieza a correr el timer
-alarm_set(0,60);
-
 //Crea N ventanas aleatorias en diferentes capas
 var N = random_range(3, 5);
 for(var i =1; i<N+1; i++){

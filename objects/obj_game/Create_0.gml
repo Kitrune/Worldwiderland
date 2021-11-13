@@ -1,6 +1,7 @@
 //El objeto se vuelve global
 global.control = id;
 //random seed
-randomise();
+randomize();
 //Linea temporal para saltarse el menu principal
-room_goto(rm_main);
+room_goto(rm_agitasoda);
+alarm_set(0,60);

@@ -1,5 +1,5 @@
-/// @description Timer
-// Control del Timer, mientras quede tiempo se quita un segundo
+/// @description Insert description here
+// You can write your code in this editor
 if(timer > 0){
 	timer -= 1;
 	//La funcion se vuelve a llamar en un segundo
