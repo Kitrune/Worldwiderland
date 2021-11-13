@@ -11,6 +11,6 @@ if(!global.control.juegoTerminado){
 
 ** TODO
 -En transicion: Hacer una secuancia con "Proximo juego en 3,2,1" con numero animados
--En obj_game: Hacer una userfuction que crea una cola de juegos aleatoria e inicia el primer juego
-
+-En Menu: Bajar el volumen de la muscia hasta que pare al transicionar
+-En cada transicion: Dibujar un cuadro azul con alpha variable y estrellas viajando rapido
 */
