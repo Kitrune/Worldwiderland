@@ -1,5 +1,9 @@
-//Muestra la puntuacion y multiplicador si no se encuentra en el menu
+/// @description Dibuja GUI
+
 if(room != rm_main){
+	// ---------------------
+	//  Dibujado del banner
+	// ---------------------
 	var margin = 20;
 	var spacer = 125;
 	var iconSize = 48
@@ -18,7 +22,32 @@ if(room != rm_main){
 	draw_sprite_stretched(spr_reloj, 0, x+margin+spacer, centro-iconSize/2, iconSize, iconSize);
 	draw_text(x+margin*2+spacer+iconSize, centro, string(timer));
 	
+	
+	// ----------------------------
+	//  Dibujado de notificaciones
+	// ----------------------------
+	if(room != rm_transicion && juegoTerminado){
+		
+		//Oscurece el fondo
+		if(alfaBG<0.5)
+			alfaBG+=0.015;
+		draw_set_alpha(alfaBG);
+		draw_set_color(c_black);
+		draw_rectangle(0,0,room_width, room_height, false);
+		
+		//Despliega mensaje de ganador o perdedor
+		draw_set_alpha(1);
+		draw_set_color(c_white);
+		if(alfaBG>=0.5)
+		if(ganado){
+			draw_text(room_width/2, room_height/2, "Ganador");
+		}else{
+			draw_text(room_width/2, room_height/2, "Perdedor");
+		}
+	}
+	
 	//Restablece los parametros por defeco para dibujar
 	draw_set_valign(fa_top);
 	draw_set_font(fo_default);
+	
 }
