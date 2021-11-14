@@ -7,6 +7,7 @@ enTransicion = false;
 juegoTerminado = false;
 ack_juegoTerminado = false;
 colaDeJuegos = ds_queue_create();
+alfaBG=1;
 #endregion
 
 #region Selecccion aleatoria de minijuegos

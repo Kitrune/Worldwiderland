@@ -2,12 +2,17 @@
 
 if(room != rm_main){
 	#region Oscurece el fondo
-		draw_set_alpha(alfaBG);
-		draw_set_color($311406);
-		draw_rectangle(0,0,room_width, room_height, false);
+	draw_set_alpha(alfaBG);
+	draw_set_color($311406);
+	draw_rectangle(0,0,room_width, room_height, false);
+	draw_set_alpha(1);
 	#endregion
-	
 	#region Fin del juego
+	
+	#region Dibujado de particulas
+	if((juegoTerminado && alfaBG>0.2) || enTransicion)
+		part_system_drawit(global.partSystemTran);
+	#endregion
 	if(room != rm_transicion && juegoTerminado){
 		//Despliega mensaje de ganador o perdedor
 		draw_set_color(c_white);
@@ -18,7 +23,7 @@ if(room != rm_main){
 		}
 		draw_set_alpha(1);
 	}
-	//Restablece los parametros por defeco para dibujar
+	//Restablece los parametros por defecto para dibujar
 	draw_set_valign(fa_top);
 	draw_set_font(fo_default);
 	#endregion

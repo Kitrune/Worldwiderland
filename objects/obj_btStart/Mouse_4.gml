@@ -4,5 +4,5 @@ with(global.control){
 }
 //detiene audio
 audio_stop_sound(song_menu);
-//detiene particulas
+//Adios particulas
 part_system_clear(global.partSystem);

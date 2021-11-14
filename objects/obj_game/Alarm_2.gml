@@ -9,6 +9,8 @@ ack_juegoTerminado = false;
 #endregion
 
 #region Salto al siguiente juego
+//detiene particulas
+part_system_clear(global.partSystem);
 room_goto(ds_queue_dequeue(colaDeJuegos));
 //Empieza el timer
 timer = 10;
