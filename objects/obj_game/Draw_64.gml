@@ -56,6 +56,7 @@ if(room != rm_main){
 	if(finalJuego){
 		var signSize = 600
 		draw_sprite_stretched(spr_letreroFinal, 0, room_width/2 - signSize/2, room_height/2-signSize/2, signSize, signSize);
+		//Todo dibujar
 	}
 	#endregion
 }

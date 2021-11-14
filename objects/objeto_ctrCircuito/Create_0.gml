@@ -5,12 +5,12 @@ randomize();
 //Asignacion de pares por dificultad
 var racha = global.control.racha;
 if(racha < 2)
-	totalPares=3;
-else if (racha <4)
 	totalPares=4;
+else if (racha <4)
+	totalPares=5;
 else
 //Aqui iria algo mas prro, pero el juego no soport mas de 4 pares
-	totalPares=4;
+	totalPares=6;
 	
 var margen = 50;
 var separacionX = room_width/8;
@@ -51,15 +51,15 @@ var coordenadasEscogidas;
 for(var i = 0; i < totalPares; i++) {
 	coordenadasEscogidas = false;
 	do {
-		coord1 = coordenadas[|i];
-		coord2 = coordenadas[|i+1];
+		coord1 = coordenadas[|0];
+		coord2 = coordenadas[|1];
 		if(coord1[0] == coord2[0] || coord1[1] == coord2[1]) {
 			ds_list_shuffle(coordenadas);
 		}
 		else {
 			coordenadasEscogidas = true;
-			ds_list_delete(coordenadas, i);
-			ds_list_delete(coordenadas, i);
+			ds_list_delete(coordenadas, 0);
+			ds_list_delete(coordenadas, 0);
 		}
 	} until(coordenadasEscogidas);
 	var inst = instance_create_layer(coord1[0], coord1[1], "Instances", obj_socket);
