@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"obj_particlesMenu","path":"objects/obj_particlesMenu/obj_particlesMenu.yy",},"order":0,},
+    {"id":{"name":"rm_inicio","path":"rooms/rm_inicio/rm_inicio.yy",},"order":8,},
     {"id":{"name":"sp_startBT","path":"sprites/sp_startBT/sp_startBT.yy",},"order":0,},
     {"id":{"name":"seq_cuentaAtras","path":"sequences/seq_cuentaAtras/seq_cuentaAtras.yy",},"order":0,},
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"order":0,},
@@ -38,6 +39,7 @@
     {"id":{"name":"spr_ventana2","path":"sprites/spr_ventana2/spr_ventana2.yy",},"order":2,},
     {"id":{"name":"scr_esAccesible","path":"scripts/scr_esAccesible/scr_esAccesible.yy",},"order":0,},
     {"id":{"name":"seq_deadBug","path":"sequences/seq_deadBug/seq_deadBug.yy",},"order":0,},
+    {"id":{"name":"spr_letreroFinal","path":"sprites/spr_letreroFinal/spr_letreroFinal.yy",},"order":4,},
     {"id":{"name":"spr_estrella","path":"sprites/spr_estrella/spr_estrella.yy",},"order":1,},
     {"id":{"name":"obj_ctrFindBug","path":"objects/obj_ctrFindBug/obj_ctrFindBug.yy",},"order":0,},
     {"id":{"name":"spr_bus","path":"sprites/spr_bus/spr_bus.yy",},"order":1,},
@@ -66,6 +68,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_inicio","path":"rooms/rm_inicio/rm_inicio.yy",},},
     {"roomId":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
     {"roomId":{"name":"rm_agitasoda","path":"rooms/rm_agitasoda/rm_agitasoda.yy",},},
     {"roomId":{"name":"rm_wwCircuito","path":"rooms/rm_wwCircuito/rm_wwCircuito.yy",},},

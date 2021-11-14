@@ -3,7 +3,7 @@
 
 //configuracion del sistema de particulas
 global.partSystem = part_system_create();
-part_system_depth(global.partSystem, -9)
+part_system_depth(global.partSystem, 1)
 
 //configuracion de la particula
 part_emitter = part_emitter_create(global.partSystem);

@@ -11,8 +11,45 @@ ack_juegoTerminado = false;
 #region Salto al siguiente juego
 //detiene particulas
 part_system_clear(global.partSystem);
-room_goto(ds_queue_dequeue(colaDeJuegos));
+//saca el juego de la cola
+var juego = ds_queue_dequeue(colaDeJuegos)
+//Dependiendo del juego ajusta el timer segun dificultad
+switch(juego){
+	case rm_agitasoda:
+		if(racha < 2)
+			timer=10;
+		else if (racha <4)
+			timer=8;
+		else
+			timer=5;
+		break;
+	case rm_findBug:
+		if(racha < 2)
+			timer=10;
+		else if (racha <4)
+			timer=8;
+		else
+			timer=5;
+		break;
+	case rm_juegoCamion:
+		if(racha < 2)
+			timer=10;
+		else if (racha <4)
+			timer=8;
+		else
+			timer=5;
+		break;
+	case rm_wwCircuito:
+		if(racha < 2)
+			timer=10;
+		else if (racha <4)
+			timer=8;
+		else
+			timer=6;
+		break;
+}
+
+room_goto(juego);
 //Empieza el timer
-timer = 10;
 alarm_set(0,60);
 #endregion

@@ -1,6 +1,17 @@
 /// @description Codigo que se ejecuta al inicio del minijuego
 // You can write your code in this editor
 randomize();
+
+//Asignacion de pares por dificultad
+var racha = global.control.racha;
+if(racha < 2)
+	totalPares=3;
+else if (racha <4)
+	totalPares=4;
+else
+//Aqui iria algo mas prro, pero el juego no soport mas de 4 pares
+	totalPares=4;
+	
 var margen = 50;
 var separacionX = room_width/8;
 var separacionY = room_height/8;
@@ -57,7 +68,7 @@ for(var i = 0; i < totalPares; i++) {
 		identificador = i;
 		image_blend = colores[other.aleatorios[|i]];
 		image_angle = other.coord1[2];
-		show_debug_message("Se creo terminal 1 de color " + string(colores[other.aleatorios[|i]]) + "En " + string(x)+ ","+string(y));
+		//show_debug_message("Se creo terminal 1 de color " + string(colores[other.aleatorios[|i]]) + "En " + string(x)+ ","+string(y));
 	}
 	var inst = instance_create_layer(coord2[0], coord2[1], "Instances", obj_socket);
 	with (inst) {
@@ -67,6 +78,6 @@ for(var i = 0; i < totalPares; i++) {
 		var diff = point_direction(x,y,room_width/2, room_height/2);
 		image_angle = ceil(diff/90)*90;
 		image_angle = other.coord2[2];
-		show_debug_message("Se creo terminal 2 de color " + string(colores[other.aleatorios[|i]]) + "En " + string(x)+ ","+string(y));
+		//show_debug_message("Se creo terminal 2 de color " + string(colores[other.aleatorios[|i]]) + "En " + string(x)+ ","+string(y));
 	}
 }

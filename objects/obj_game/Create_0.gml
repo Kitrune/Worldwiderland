@@ -26,3 +26,5 @@ randomize();
 	part_type_gravity(part_type, 0.2, 180);
 #endregion
 
+//Va al menu principal
+room_goto(rm_main);

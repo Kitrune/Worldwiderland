@@ -7,14 +7,14 @@ if(room != rm_main){
 	draw_rectangle(0,0,room_width, room_height, false);
 	draw_set_alpha(1);
 	#endregion
-	#region Fin del juego
 	
 	#region Dibujado de particulas
 	if((juegoTerminado && alfaBG>0.2) || enTransicion)
 		part_system_drawit(global.partSystemTran);
 	#endregion
+	
+	#region Despliega mensaje de ganador o perdedor
 	if(room != rm_transicion && juegoTerminado){
-		//Despliega mensaje de ganador o perdedor
 		draw_set_color(c_white);
 		if(ganado){
 			draw_text(room_width/2, room_height/2, "Ganador");
