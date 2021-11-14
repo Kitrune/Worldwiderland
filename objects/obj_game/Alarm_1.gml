@@ -11,6 +11,7 @@ if(!ds_queue_empty(colaDeJuegos)){
 	//Callback para el inicio del juego
 	alarm_set(2,60*3);
 }else{//Fin del juego	
+	finalJuego = true;
 	layer_sequence_destroy(seqCuentaAtras);
 }
 layer_reset_target_room();

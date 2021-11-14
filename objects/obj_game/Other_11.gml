@@ -11,7 +11,7 @@ alfaBG=1;
 #endregion
 
 #region Selecccion aleatoria de minijuegos
-var juegosPorRonda = 4
+var juegosPorRonda = 0
 var listaDeJuegos = ds_list_create();
 
 // IMPORTANTE: Añadir futuros juegos aqui
