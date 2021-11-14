@@ -1,11 +1,35 @@
 /// @description Dibuja GUI
 
 if(room != rm_main){
+	#region Oscurece el fondo
+		draw_set_alpha(alfaBG);
+		draw_set_color($311406);
+		draw_rectangle(0,0,room_width, room_height, false);
+	#endregion
+	
+	#region Fin del juego
+	if(room != rm_transicion && juegoTerminado){
+		//Despliega mensaje de ganador o perdedor
+		draw_set_color(c_white);
+		if(ganado){
+			draw_text(room_width/2, room_height/2, "Ganador");
+		}else{
+			draw_text(room_width/2, room_height/2, "Perdedor");
+		}
+		draw_set_alpha(1);
+	}
+	//Restablece los parametros por defeco para dibujar
+	draw_set_valign(fa_top);
+	draw_set_font(fo_default);
+	#endregion
+	
 	#region Dibuja el banner
 	var margin = 20;
 	var spacer = 125;
 	var iconSize = 48
 	//Dibuja letrero
+	draw_set_alpha(1);
+	draw_set_color(c_white);
 	draw_sprite(spr_letrero, 0, x-120,y);
 	//Alinea el dibujado al centro vertical
 	draw_set_valign(fa_middle);
@@ -20,32 +44,4 @@ if(room != rm_main){
 	draw_sprite_stretched(spr_reloj, 0, x+margin+spacer, centro-iconSize/2, iconSize, iconSize);
 	draw_text(x+margin*2+spacer+iconSize, centro, string(timer));
 	#endregion
-	
-	#region Fin del juego
-	if(room != rm_transicion && juegoTerminado){
-		
-		//Oscurece el fondo
-		if(alfaBG<0.5)
-			alfaBG+=0.015;
-		draw_set_alpha(alfaBG);
-		draw_set_color(c_black);
-		draw_rectangle(0,0,room_width, room_height, false);
-		
-		//Despliega mensaje de ganador o perdedor
-		draw_set_alpha(1);
-		draw_set_color(c_white);
-		if(alfaBG>=0.5)
-		if(ganado){
-			draw_text(room_width/2, room_height/2, "Ganador");
-		}else{
-			draw_text(room_width/2, room_height/2, "Perdedor");
-		}
-	}
-	#endregion
-	
-	
-	//Restablece los parametros por defeco para dibujar
-	draw_set_valign(fa_top);
-	draw_set_font(fo_default);
-	
 }

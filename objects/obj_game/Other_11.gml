@@ -6,7 +6,6 @@ ganado = false;
 enTransicion = false;
 juegoTerminado = false;
 ack_juegoTerminado = false;
-alfaBG = 0.0;
 colaDeJuegos = ds_queue_create();
 #endregion
 

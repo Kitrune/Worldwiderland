@@ -3,9 +3,9 @@
 #region Reestablecimiento de variables
 ganado = false;
 enTransicion = false;
+alfaBG=1;
 juegoTerminado = false;
 ack_juegoTerminado = false;
-alfaBG = 0.0;
 #endregion
 
 #region Salto al siguiente juego
