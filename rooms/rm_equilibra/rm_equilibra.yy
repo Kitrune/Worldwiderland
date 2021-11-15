@@ -15,9 +15,7 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_ctrEquilibra","path":"objects/obj_ctrEquilibra/obj_ctrEquilibra.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":0.0,"resourceVersion":"1.0","name":"inst_49D12110","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_base","path":"objects/obj_base/obj_base.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":437.0,"y":296.0,"resourceVersion":"1.0","name":"inst_3F95F958","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_pisoEequilibra","path":"objects/obj_pisoEequilibra/obj_pisoEequilibra.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.02564108,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":608.0,"resourceVersion":"1.0","name":"inst_17163002","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_palo","path":"objects/obj_palo/obj_palo.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":2.59999967,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":672.0,"y":352.0,"resourceVersion":"1.0","name":"inst_38A9441E","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_banana","path":"objects/obj_banana/obj_banana.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":625.0,"y":67.0,"resourceVersion":"1.0","name":"inst_54BC3F2F","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_banana","path":"objects/obj_banana/obj_banana.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":839.0,"y":45.0,"resourceVersion":"1.0","name":"inst_CAE83BC","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_banana","path":"objects/obj_banana/obj_banana.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":705.0,"y":32.0,"resourceVersion":"1.0","name":"inst_D435BA3","tags":[],"resourceType":"GMRInstance",},
@@ -29,9 +27,7 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_49D12110","path":"rooms/rm_equilibra/rm_equilibra.yy",},
-    {"name":"inst_3F95F958","path":"rooms/rm_equilibra/rm_equilibra.yy",},
     {"name":"inst_17163002","path":"rooms/rm_equilibra/rm_equilibra.yy",},
-    {"name":"inst_38A9441E","path":"rooms/rm_equilibra/rm_equilibra.yy",},
     {"name":"inst_54BC3F2F","path":"rooms/rm_equilibra/rm_equilibra.yy",},
     {"name":"inst_CAE83BC","path":"rooms/rm_equilibra/rm_equilibra.yy",},
     {"name":"inst_D435BA3","path":"rooms/rm_equilibra/rm_equilibra.yy",},
