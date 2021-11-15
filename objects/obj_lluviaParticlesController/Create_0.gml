@@ -5,7 +5,7 @@
 
 //configuracion del sistema de particulas
 global.partSystemLluvia = part_system_create_layer("Assets_lluvia", false);
-part_system_depth(global.partSystemLluvia, 100)
+part_system_depth(global.partSystemLluvia, 100);
 
 //Creacion de los emisores y el tipo de particula
 part_emitter = part_emitter_create(global.partSystemLluvia);
@@ -22,7 +22,7 @@ part_emitter_stream(global.partSystemLluvia, part_emitter, part_type, 10);
 part_type_shape(part_type, pt_shape_line);
 part_type_orientation(part_type, 0, 5 ,0 ,0, true);
 part_type_scale(part_type, 2, 1);
-part_type_size(part_type, 0.1, 0.3, 0,0);
+part_type_size(part_type, 0.2, 0.4, 0,0);
 part_type_direction(part_type, 270, 275, 0, 0);
 part_type_speed(part_type, 18, 23, 1, 0);
 part_type_life(part_type, 30, 35);
