@@ -28,3 +28,10 @@ randomize();
 
 //Va al menu principal
 room_goto(rm_main);
+
+//Lo saca fuera de la vista
+y=room_height;
+x=room_width;
+
+//Inicializa la cola
+colaDeJuegos = ds_queue_create();

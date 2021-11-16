@@ -1,17 +1,10 @@
 /// @description Inicializacion del modo de juego
 
 #region Reestablecimiento de variables
-puntuacion = 0;
-ganado = false;
-enTransicion = false;
-juegoTerminado = false;
-ack_juegoTerminado = false;
-colaDeJuegos = ds_queue_create();
-alfaBG=1;
+event_user(2);
 #endregion
 
 #region Selecccion aleatoria de minijuegos
-var juegosPorRonda = 4
 var listaDeJuegos = ds_list_create();
 
 // IMPORTANTE: Añadir futuros juegos aqui
