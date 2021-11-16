@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "song_rclimb.mp3",
-  "duration": 167.157547,
+  "duration": 89.73058,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
