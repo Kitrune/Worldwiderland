@@ -20,11 +20,14 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [
-    {"x":182.0,"y":19.0014648,},
-    {"x":197.0,"y":169.001465,},
-    {"x":169.0,"y":195.002686,},
-    {"x":115.0,"y":211.002686,},
-    {"x":55.0,"y":213.00293,},
+    {"x":74.0,"y":40.00244,},
+    {"x":149.0,"y":36.00244,},
+    {"x":207.0,"y":52.00244,},
+    {"x":232.0,"y":115.002441,},
+    {"x":208.0,"y":173.002441,},
+    {"x":143.0,"y":221.002441,},
+    {"x":48.0,"y":195.002441,},
+    {"x":29.0,"y":131.002686,},
   ],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
@@ -32,7 +35,7 @@
     {"isDnD":false,"eventNum":50,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":56,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_banana","path":"objects/obj_banana/obj_banana.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_fruta","path":"objects/obj_fruta/obj_fruta.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
     {"varType":3,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"is_colliding_izquierda","tags":[],"resourceType":"GMObjectProperty",},
@@ -44,7 +47,7 @@
     "path": "folders/Objects/equilibra.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_banana",
+  "name": "obj_fruta",
   "tags": [],
   "resourceType": "GMObject",
 }
