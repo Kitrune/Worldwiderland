@@ -6,8 +6,10 @@ timer = 30;
 //Se empieza a correr el timer
 alarm_set(0,60);
 physics_world_gravity(0, 10);
+randomize();
 //render_flags = phy_debug_render_shapes | phy_debug_render_joints | phy_debug_render_coms | phy_debug_render_obb;
-var palo = instance_create_layer(room_width/2, room_height - sprite_get_height(spr_piso) - sprite_get_height(spr_palo), "Instances", obj_palo);
+var palo_x = random_range(room_width/2 - sprite_get_width(spr_base)/4, room_width/2 + sprite_get_width(spr_base)/4);
+var palo = instance_create_layer(palo_x, room_height - sprite_get_height(spr_piso) - sprite_get_height(spr_palo), "Instances", obj_palo);
 var base = instance_create_layer(room_width/2, palo.y + 4 - sprite_get_height(spr_base)/8, "Instances", obj_base);
 /*var fixA = physics_fixture_create();
 physics_fixture_set_circle_shape(fixA, 20);
