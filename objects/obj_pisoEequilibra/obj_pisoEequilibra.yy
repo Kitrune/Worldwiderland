@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sp_piso",
-    "path": "sprites/sp_piso/sp_piso.yy",
+    "name": "spr_piso",
+    "path": "sprites/spr_piso/spr_piso.yy",
   },
   "solid": false,
   "visible": true,
@@ -13,9 +13,9 @@
   "physicsShape": 1,
   "physicsGroup": 1,
   "physicsDensity": 0.0,
-  "physicsRestitution": 0.1,
-  "physicsLinearDamping": 0.1,
-  "physicsAngularDamping": 0.1,
+  "physicsRestitution": 0.0,
+  "physicsLinearDamping": 0.0,
+  "physicsAngularDamping": 0.0,
   "physicsFriction": 0.2,
   "physicsStartAwake": true,
   "physicsKinematic": false,

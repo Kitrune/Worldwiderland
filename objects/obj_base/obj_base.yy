@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sp_base",
-    "path": "sprites/sp_base/sp_base.yy",
+    "name": "spr_base",
+    "path": "sprites/spr_base/spr_base.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,8 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_banana","path":"objects/obj_banana/obj_banana.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_fruta","path":"objects/obj_fruta/obj_fruta.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_base","path":"objects/obj_base/obj_base.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
     {"varType":1,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"pesoBanana","tags":[],"resourceType":"GMObjectProperty",},
