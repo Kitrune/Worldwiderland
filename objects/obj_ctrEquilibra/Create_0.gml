@@ -5,8 +5,8 @@
 timer = 30;
 //Se empieza a correr el timer
 alarm_set(0,60);
-physics_world_gravity(0, 7);                    //No gravity
-render_flags = phy_debug_render_shapes | phy_debug_render_joints | phy_debug_render_coms | phy_debug_render_obb;
+physics_world_gravity(0, 7);
+//render_flags = phy_debug_render_shapes | phy_debug_render_joints | phy_debug_render_coms | phy_debug_render_obb;
 var palo = instance_create_layer(room_width/2, room_height - sprite_get_height(sp_piso) - sprite_get_height(sp_palo), "Instances", obj_palo);
 var base = instance_create_layer(room_width/2, palo.y + 4 - sprite_get_height(sp_base)/8, "Instances", obj_base);
 var fixA = physics_fixture_create();
@@ -17,3 +17,6 @@ physics_fixture_bind(fixA, palo);
 physics_fixture_bind(fixA, base);
 physics_fixture_delete(fixA);
 physics_joint_distance_create(palo, base, palo.x, base.y, base.x, base.y, true);
+var tope_izq = instance_create_layer(base.x - sprite_get_width(sp_base)/2-20, base.y - sprite_get_height(sp_base), "Instances", obj_tope_invisible);
+var tope_derecha = instance_create_layer(base.x + sprite_get_width(sp_base)/2+20, base.y - sprite_get_height(sp_base), "Instances", obj_tope_invisible);
+var tope_centro = instance_create_layer(base.x, base.y-60, "Instances", obj_tope_centro);
