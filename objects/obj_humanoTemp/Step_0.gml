@@ -16,7 +16,11 @@ if(!enSuelo){
 //Brinco
 if salto and enSuelo{
 	velocidadV=alturaSalto*-1;
+	sprite_index = spr_jump;
 	enSuelo = false;
+}
+if enSuelo{
+	sprite_index = spr_idle;
 }
 
 x += movimientoH;

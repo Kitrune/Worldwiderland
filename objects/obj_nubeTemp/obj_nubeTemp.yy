@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite16",
-    "path": "sprites/Sprite16/Sprite16.yy",
+    "name": "spr_nube",
+    "path": "sprites/spr_nube/spr_nube.yy",
   },
   "solid": false,
   "visible": true,

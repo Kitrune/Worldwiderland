@@ -1,4 +1,4 @@
-//El objeto se vuelve global
+ //El objeto se vuelve global
 global.control = id;
 //random seed
 randomise();
