@@ -18,8 +18,8 @@ physics_fixture_bind(fixA, base);
 physics_fixture_delete(fixA);
 physics_joint_distance_create(palo, base, palo.x, base.y, base.x, base.y, true);
 */
-instance_create_layer(base.x - sprite_get_width(spr_base)/2-20, base.y - sprite_get_height(spr_base), "Instances", obj_tope_invisible);
-instance_create_layer(base.x + sprite_get_width(spr_base)/2+20, base.y - sprite_get_height(spr_base), "Instances", obj_tope_invisible);
+//instance_create_layer(base.x - sprite_get_width(spr_base)/2-20, base.y - sprite_get_height(spr_base), "Instances", obj_tope_invisible);
+//instance_create_layer(base.x + sprite_get_width(spr_base)/2+20, base.y - sprite_get_height(spr_base), "Instances", obj_tope_invisible);
 //instance_create_layer(base.x, base.y-60, "Instances", obj_tope_centro);
 
 for(var i = 0; i < total_frutas; i++) {
