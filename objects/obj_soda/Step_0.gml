@@ -14,5 +14,4 @@ if(contadoragitado>=N){
 	}
 	layer_sequence_x(animacion, x);
 	layer_sequence_y(animacion, y);
-	
 }
