@@ -19,9 +19,21 @@ if salto and enSuelo{
 	sprite_index = spr_jump;
 	enSuelo = false;
 }
-if enSuelo{
-	sprite_index = spr_idle;
-}
 
 x += movimientoH;
 y += velocidadV;
+
+//Animacion
+if((derecha||izquierda) & enSuelo){
+	sprite_index=spr_walk;
+}else if(enSuelo){
+	sprite_index=spr_idle;
+}
+
+//Direccion
+if(izquierda ||derecha)
+	if(derecha){
+		image_xscale = abs(image_xscale);
+	}else{
+		image_xscale = -1*abs(image_xscale);
+	}
