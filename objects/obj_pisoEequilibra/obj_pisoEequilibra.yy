@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sp_piso",
-    "path": "sprites/sp_piso/sp_piso.yy",
+    "name": "spr_piso",
+    "path": "sprites/spr_piso/spr_piso.yy",
   },
   "solid": false,
   "visible": true,

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sp_palo",
-    "path": "sprites/sp_palo/sp_palo.yy",
+    "name": "spr_palo",
+    "path": "sprites/spr_palo/spr_palo.yy",
   },
   "solid": false,
   "visible": true,
