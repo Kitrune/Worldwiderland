@@ -1,11 +1,8 @@
 /// @description Codigo que se ejecuta al inicio del minijuego
 // You can write your code in this editor
 randomize();
-//Se declara el tiempo del timer
-timer = 30;
+global.control.ganado=true;
 fruitTimer = 60;
-//Se empieza a correr el timer
-alarm_set(0,60);
 
 physics_world_gravity(0, 15);
 //render_flags = phy_debug_render_shapes | phy_debug_render_joints | phy_debug_render_coms | phy_debug_render_obb;
@@ -35,3 +32,9 @@ for(var i = 0; i < total_frutas; i++) {
 	}
 }
 */
+switch(global.control.dificultad){
+	case 0: cadencia = 80; break;
+	case 1: cadencia = 60; break;
+	case 2: cadencia = 40; break;
+	default: cadencia = 60; break;
+}

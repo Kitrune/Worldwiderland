@@ -1,9 +1,11 @@
 /// @description Codigo que se ejecuta al inicio del minijuego
 randomize();
-//Se declara el tiempo del timer
-timer = 30;
-//Se empieza a correr el timer
-alarm_set(0,60);
+switch(global.control.dificultad){
+	case 0: cantidad_numeros=4; break;
+	case 1: cantidad_numeros=6; break;
+	case 2: cantidad_numeros=8; break;
+	default: cantidad_numeros=4; break;
+}
 // Crear los bloques y botones para swapear los numeros.
 permutacion = ds_list_create();
 var aleatorio;
@@ -14,7 +16,27 @@ for(var i = 0; i < cantidad_numeros; i++) {
 	until(ds_list_find_index(permutacion, aleatorio) == -1);
 	ds_list_add(permutacion, aleatorio);
 }
+
+#region shuffle hasta la muerte
 ds_list_shuffle(permutacion);
+var ordenados = ds_list_create();
+ds_list_copy(ordenados, permutacion);
+ds_list_sort(ordenados, true);
+var igual = true;
+while(igual){
+	for(var i = 0; i < cantidad_numeros; i++) {
+	        if(ds_list_find_value(ordenados, i) != ds_list_find_value(permutacion, i)) {
+	            igual = false;
+	            break;
+	        }
+	    }
+		if(igual) {
+			ds_list_shuffle(permutacion);
+		}
+}
+#endregion
+
+
 var sprite_size = sprite_get_width(spr_cuadro);
 factor_escala = room_width/(cantidad_numeros+2);
 var lista_cuadros = ds_list_create();

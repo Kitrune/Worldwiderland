@@ -30,7 +30,11 @@ if(room != rm_main){
 		var alto = 200;
 		var ancho = alto*4;
 		try{
-			draw_sprite_stretched(sprite_index, image_index, room_width/2 - ancho/2, room_height/2-alto/2, ancho, alto);
+			if(room != rm_climb)
+				draw_sprite_stretched(sprite_index, image_index, room_width/2 - ancho/2, room_height/2-alto/2, ancho, alto);
+			else
+				draw_sprite_stretched(sprite_index, image_index,view_xport[0] + 1280/2 - ancho/2, view_yport[0]+720/2-alto/2, ancho, alto);
+
 		}catch(err){
 			show_debug_message(err);
 		}

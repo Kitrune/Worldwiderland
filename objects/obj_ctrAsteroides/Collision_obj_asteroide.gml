@@ -9,4 +9,8 @@ if(!isGameover){
 		image_xscale = 15;
 		image_yscale = 15;
 	}
+	if(!global.control.juegoTerminado){
+		global.control.ganado = false;
+		global.control.juegoTerminado = true;
+	}
 }

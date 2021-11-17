@@ -6,10 +6,9 @@ posy= ystart;
 contadoragitado = 0;
 
 //Ajusta la dificultad
-var racha = global.control.racha;
-if(racha < 2)
-	N=10;
-else if (racha <4)
-	N=15;
-else
-	N=20;
+switch(global.control.dificultad){
+	case 0: N=10; break;
+	case 1: N=15; break;
+	case 2: N=20; break;
+	default: N=15; break;
+}

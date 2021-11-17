@@ -37,3 +37,11 @@ if(izquierda ||derecha)
 	}else{
 		image_xscale = -1*abs(image_xscale);
 	}
+	
+//Si se esta 720px por debajo de ctrl, pierde
+if((y> controlClimb.y+720 && controlClimb.y > 0)|| ((controlClimb.y <0) && y>720) ){
+	if(!global.control.juegoTerminado){
+		global.control.ganado = false;
+		global.control.juegoTerminado = true;
+	}
+}

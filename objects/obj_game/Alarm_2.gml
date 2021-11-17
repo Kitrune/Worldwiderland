@@ -13,41 +13,47 @@ ack_juegoTerminado = false;
 part_system_clear(global.partSystem);
 //saca el juego de la cola
 var juego = ds_queue_dequeue(colaDeJuegos)
+
 //Dependiendo del juego ajusta el timer segun dificultad
+timer = 20;
+if(racha < 2)
+	dificultad=0;
+else if (racha <4)
+	dificultad=1;
+else
+	dificultad=2;
+
+var tiempos = [];
 switch(juego){
 	case rm_agitasoda:
-		if(racha < 2)
-			timer=10;
-		else if (racha <4)
-			timer=8;
-		else
-			timer=5;
+		tiempos = [10,8,5];
+		break;
+	case rm_asteroides:
+		tiempos = [10,15,20];
+		break;
+	case rm_climb:
+		tiempos = [20,18,15];
+		break;
+	case rm_equilibra:
+		tiempos = [8,12,15];
+		break;
+	case rm_evitaLluvia:
+		tiempos = [10,15,20];
 		break;
 	case rm_findBug:
-		if(racha < 2)
-			timer=10;
-		else if (racha <4)
-			timer=8;
-		else
-			timer=5;
+		tiempos = [10,8,5];
 		break;
 	case rm_juegoCamion:
-		if(racha < 2)
-			timer=10;
-		else if (racha <4)
-			timer=8;
-		else
-			timer=5;
+		tiempos = [15,10,8];
 		break;
 	case rm_wwCircuito:
-		if(racha < 2)
-			timer=10;
-		else if (racha <4)
-			timer=8;
-		else
-			timer=6;
+		tiempos = [15,10,8];
+		break;
+	case rm_wwOrdenaNumero:
+		tiempos = [20,18,15];
 		break;
 }
+timer = tiempos[dificultad];
 
 room_goto(juego);
 //Empieza el timer

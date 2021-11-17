@@ -3,14 +3,12 @@
 randomize();
 
 //Asignacion de pares por dificultad
-var racha = global.control.racha;
-if(racha < 2)
-	totalPares=4;
-else if (racha <4)
-	totalPares=5;
-else
-//Aqui iria algo mas prro, pero el juego no soport mas de 4 pares
-	totalPares=6;
+switch(global.control.dificultad){
+	case 0: totalPares=4; break;
+	case 1: totalPares=5; break;
+	case 2: totalPares=6; break;
+	default: totalPares=5; break;
+}
 	
 var margen = 50;
 var separacionX = room_width/8;

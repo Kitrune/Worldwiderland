@@ -12,7 +12,12 @@ ds_list_add(listaDeJuegos,
 rm_findBug, 
 rm_juegoCamion, 
 rm_agitasoda, 
-rm_wwCircuito
+rm_wwCircuito,
+rm_climb,
+rm_evitaLluvia,
+rm_equilibra,
+rm_asteroides,
+rm_wwOrdenaNumero
 );
 
 ds_list_shuffle(listaDeJuegos);

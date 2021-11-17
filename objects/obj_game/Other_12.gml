@@ -10,3 +10,4 @@ racha = 0;
 rachaMax = 0;
 finalJuego = false;
 seqCuentaAtras = 0;
+dificultad = 0;

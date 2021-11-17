@@ -3,13 +3,12 @@
 
 //Crea N ventanas segun la dificultad
 var N = 0
-var racha = global.control.racha;
-if(racha < 2)
-	N=3;
-else if (racha <4)
-	N=4;
-else
-	N=5;
+switch(global.control.dificultad){
+	case 0: N=3; break;
+	case 1: N=4; break;
+	case 2: N=5; break;
+	default: N=3; break;
+}
 	
 for(var i =1; i<N+1; i++){
 	//Genera cordenadas aleatorias en el room

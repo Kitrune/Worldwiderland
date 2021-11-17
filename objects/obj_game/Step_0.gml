@@ -38,3 +38,5 @@ if(finalJuego){
 	}
 }
 #endregion
+
+//sprite_index = ganado ? spr_ganaste : spr_perdiste;

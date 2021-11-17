@@ -13,5 +13,8 @@ if(fruitTimer==cadencia){
 
 fruitTimer++;
 if(!equilibrado){
-	show_debug_message("se acabo");
+	if(!global.control.juegoTerminado){
+		global.control.ganado = false;
+		global.control.juegoTerminado = true;
+	}
 }

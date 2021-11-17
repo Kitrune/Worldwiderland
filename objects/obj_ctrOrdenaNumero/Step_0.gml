@@ -22,6 +22,9 @@ if(ds_list_size(actuales) == cantidad_numeros) {
         }
     }
 	if(equal) {
-		show_debug_message("GANASTE!");
+		if(!global.control.juegoTerminado){
+			global.control.ganado = true;
+			global.control.juegoTerminado = true;
+		}
 	}
 }
