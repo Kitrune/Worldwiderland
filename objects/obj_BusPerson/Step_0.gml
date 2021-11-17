@@ -8,13 +8,13 @@ var camion = inst_4AD9A17A;
 var vel=5;
 
 //Verifica si la tecla del pie correspondiente es ingresada en el turno correcto
-if(keyboard_check(ord(teclaIzq))&&estado!=1){
+if(keyboard_check_pressed(ord(teclaIzq))&&estado!=1){
 	estado=1;
 	speed=vel;
 	image_angle=13;
 }
 
-if(keyboard_check(ord(teclaDer))&&estado!=2){
+if(keyboard_check_pressed(ord(teclaDer))&&estado!=2){
 	estado=2;
 	speed=vel;
 	image_angle=-13;
