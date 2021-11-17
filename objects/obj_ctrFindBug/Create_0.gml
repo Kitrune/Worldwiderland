@@ -1,13 +1,15 @@
 /// @description Codigo que se ejecuta al inicio del minijuego
 // You can write your code in this editor
 
-//Se declara el tiempo del timer
-timer = 30;
-//Se empieza a correr el timer
-alarm_set(0,60);
-
-//Crea N ventanas aleatorias en diferentes capas
-var N = random_range(3, 5);
+//Crea N ventanas segun la dificultad
+var N = 0
+switch(global.control.dificultad){
+	case 0: N=3; break;
+	case 1: N=4; break;
+	case 2: N=5; break;
+	default: N=3; break;
+}
+	
 for(var i =1; i<N+1; i++){
 	//Genera cordenadas aleatorias en el room
 	var ranX = random_range(90,room_width-500);

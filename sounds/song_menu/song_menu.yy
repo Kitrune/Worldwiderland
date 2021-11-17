@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.88,
+  "volume": 0.94,
   "preload": false,
   "bitRate": 192,
   "sampleRate": 44100,
@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "song_menu.mp3",
-  "duration": 206.064,
+  "duration": 256.208954,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
